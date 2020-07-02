@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <title>PhilSearchAdvanced</title>
+    <meta name="description" content="Google Advanced Search by Philip Vedder - Harvard Web Project 0">
+    <link rel="stylesheet" href="../assets/css/main.css" type="text/css">
+</head>
+
+<body>
+    <section>
+        <div class="navigation">
+            <a href="../">
+                <p>&#60; Back to Search</p>
+            </a>
+        </div>
+    </section>
+
+    <section class="search">
+        <p class="title">
+            <a class="title-1">Phil</a><a class="title-2">Search</a><a class="title-4">Advanced</a>
+        </p>
+        <form action="https://www.google.de/search" method="GET">
+            <p class="adv-header">Find pages with...</p>
+            <div class="adv-container">
+                <p class="text-adv">all these words:</p><input class="searchbar searchbar-adv" type="text" name="as_q">
+            </div>
+            <div class="adv-container">
+                <p class="text-adv">this exact word or phrase:</p><input class="searchbar searchbar-adv" type="text" name="as_epq">
+            </div>
+            <div class="adv-container">
+                <p class="text-adv">any of these words:</p><input class="searchbar searchbar-adv" type="text" name="as_oq">
+            </div>
+            <div class="adv-container">
+                <p class="text-adv">none of these words:</p><input class="searchbar searchbar-adv" type="text" name="as_eq">
+            </div>
+            <div class="button-container">
+                <button class="submitbutton-adv" type="submit">Advanced Search</button>
+            </div>
+        </form>
+    </section>
+</body>
+
+</html>
