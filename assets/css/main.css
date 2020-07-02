@@ -57,6 +57,7 @@ p {
 @media (max-width: 650px) {
     .search {
         width: 95%;
+        top: 55%;
     }
 }
 
@@ -164,9 +165,21 @@ p {
     white-space: nowrap;
 }
 
+@media (max-width: 650px) {
+    .search .text-adv {
+        width: 100%;
+    }
+}
+
 .search .searchbar-adv {
     width: 55%;
     float: right;
+}
+
+@media (max-width: 650px) {
+    .search .searchbar-adv {
+        width: 95%;
+    }
 }
 
 .search .submitbutton-adv {
