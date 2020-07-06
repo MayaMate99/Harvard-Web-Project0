@@ -8,12 +8,12 @@ This is a Test-Entry!
 ##### h5
 ###### h6
 
-** Bold Text 1 **
+__ Bold Text 1 __
 
 * First
 * Second
 * Third
 
-** Bold Text 2 **
+__ Bold Text 2 __
 
 [CSS](/wiki/CSS)
